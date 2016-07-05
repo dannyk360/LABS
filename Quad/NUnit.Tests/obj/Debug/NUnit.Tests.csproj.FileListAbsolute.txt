@@ -1,0 +1,9 @@
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\NUnit.Tests.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\NUnit.Tests.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\nunit.framework.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\Quad.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\Quad.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\bin\Debug\nunit.framework.xml
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\obj\Debug\NUnit.Tests.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\obj\Debug\NUnit.Tests.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Quad\NUnit.Tests\obj\Debug\NUnit.Tests.pdb
