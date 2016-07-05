@@ -1,0 +1,8 @@
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\bin\Debug\Strings.exe
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\bin\Debug\Strings.pdb
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\Users\danny_000\documents\visual studio 2015\Projects\Strings\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

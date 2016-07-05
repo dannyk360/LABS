@@ -1,0 +1,6 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\Primes\Primes\bin\Debug\Primes.exe.config
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Primes\Primes\bin\Debug\Primes.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Primes\Primes\bin\Debug\Primes.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Primes\Primes\obj\Debug\Primes.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Primes\Primes\obj\Debug\Primes.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Primes\Primes\obj\Debug\Primes.pdb
