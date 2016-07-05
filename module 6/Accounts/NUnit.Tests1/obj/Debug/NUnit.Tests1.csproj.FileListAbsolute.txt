@@ -1,0 +1,9 @@
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\NUnit.Tests1.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\NUnit.Tests1.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\AccountsLib.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\nunit.framework.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\AccountsLib.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\bin\Debug\nunit.framework.xml
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\obj\Debug\NUnit.Tests1.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\obj\Debug\NUnit.Tests1.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\NUnit.Tests1\obj\Debug\NUnit.Tests1.pdb

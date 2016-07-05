@@ -1,0 +1,5 @@
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Accounts\AccountsLib\obj\Debug\AccountsLib.pdb
