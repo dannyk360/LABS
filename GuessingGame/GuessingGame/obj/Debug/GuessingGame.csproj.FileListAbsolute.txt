@@ -1,0 +1,6 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe.config
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.pdb
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\obj\Debug\GuessingGame.csprojResolveAssemblyReference.cache
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\obj\Debug\GuessingGame.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\obj\Debug\GuessingGame.pdb
