@@ -1,0 +1,6 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\bin\Debug\GenericApp.exe.config
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\bin\Debug\GenericApp.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\bin\Debug\GenericApp.pdb
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.csprojResolveAssemblyReference.cache
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.pdb
