@@ -1,0 +1,5 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\bin\Debug\ShapeLib.dll
+c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\bin\Debug\ShapeLib.pdb
+c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
+c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.dll
+c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.pdb
