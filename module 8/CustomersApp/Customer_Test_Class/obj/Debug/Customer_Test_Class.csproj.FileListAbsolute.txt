@@ -1,0 +1,9 @@
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\Customer_Test_Class.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\Customer_Test_Class.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\CustomersApp.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\CustomersApp.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\obj\Debug\Customer_Test_Class.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\obj\Debug\Customer_Test_Class.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\CustomersApp\Customer_Test_Class\obj\Debug\Customer_Test_Class.pdb
