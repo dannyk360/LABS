@@ -1,0 +1,5 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.exe.config
+c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.pdb
+c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.pdb
