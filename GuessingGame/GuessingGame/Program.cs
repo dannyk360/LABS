@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace GuessingGame
 {
+    //Doesn't handle exceptions. crashes on invalid input.
+    //Doesn't print number of guesses at end of game.
     class Program
     {
         public static int parseNumber(string str)
@@ -19,6 +21,8 @@ namespace GuessingGame
         static void Main(string[] args)
         {
             string str;
+            
+            //the convention in C# is to declare each variable in a seperate row.
             int secret = new Random().Next(1, 101),i,j = 0;
             while (j++ < 7)
             {
