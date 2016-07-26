@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DollarStairs
 {
+    //Doesn't handle invalid input
     class Program
     {
         static void Main(string[] args)
