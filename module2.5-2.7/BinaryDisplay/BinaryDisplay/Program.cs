@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace BinaryDisplay
 {
+    //Input is not validated.
+    //Doesn't print correct result for negative values.
     public class Program
     {
+        //Nice recursion
         public  int CalcRec(int i)
         {
             if (i == 0)
