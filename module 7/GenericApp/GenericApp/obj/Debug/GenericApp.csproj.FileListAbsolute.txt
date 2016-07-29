@@ -4,3 +4,9 @@ c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\b
 c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.csprojResolveAssemblyReference.cache
 c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\GenericApp\GenericApp\obj\Debug\GenericApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\bin\Debug\GenericApp.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\obj\Debug\GenericApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\obj\Debug\GenericApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\bin\Debug\GenericApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\bin\Debug\GenericApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\GenericApp\GenericApp\obj\Debug\GenericApp.csprojResolveAssemblyReference.cache

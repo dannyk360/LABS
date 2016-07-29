@@ -28,8 +28,8 @@ namespace GenericApp
 
         public bool Remove(K key)
         {
-            int i = Dictionary[key].Count;
-            if (!Dictionary.Remove(key)) return false;
+            int i = Dictionary[key].Count;//If key does not exist in dictionary, this line will throw an exception
+            if (!Dictionary.Remove(key)) return false;//Which means this condition will never be true
             Count -= i;
             return true;
         }
@@ -65,8 +65,8 @@ namespace GenericApp
                 Dictionary[key].Contains(value);
         }
 
-        public ICollection<K> Keys { get; }
-        public ICollection<V> Values { get; }
+        public ICollection<K> Keys { get; }//Implementation?
+        public ICollection<V> Values { get; }//Implementation?
         public int Count { get; private set; }
 
         public IEnumerator<KeyValuePair<K, IEnumerable<V>>> GetEnumerator()
