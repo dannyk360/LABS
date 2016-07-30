@@ -4,3 +4,9 @@ c:\users\danny_000\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\b
 c:\users\danny_000\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\bin\Debug\AttribDemo.pdb
 c:\users\danny_000\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\obj\Debug\AttribDemo.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\obj\Debug\AttribDemo.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\obj\Debug\AttribDemo.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\obj\Debug\AttribDemo.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\bin\Debug\AttribDemo.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\AttribDemo\AttribDemo\obj\Debug\AttribDemo.csprojResolveAssemblyReference.cache

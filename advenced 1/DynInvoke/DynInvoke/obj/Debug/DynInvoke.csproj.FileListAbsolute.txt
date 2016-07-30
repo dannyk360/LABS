@@ -4,3 +4,9 @@ c:\users\danny_000\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\bin
 c:\users\danny_000\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.csprojResolveAssemblyReference.cache
 c:\users\danny_000\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\obj\Debug\DynInvoke.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\obj\Debug\DynInvoke.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\bin\Debug\DynInvoke.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\advenced 1\DynInvoke\DynInvoke\obj\Debug\DynInvoke.csprojResolveAssemblyReference.cache

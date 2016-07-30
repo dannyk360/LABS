@@ -42,7 +42,9 @@ namespace DynamicXml
                 return false;
             }
             var collectionElements = _element.Elements((string) indexes[0]);
+            //What happens if 'collectionElements' is empty?
             var res = collectionElements.ElementAt((int)indexes[1]);
+           
             result = new DynamicXElement(res);
             if (result == null)
                 return false;

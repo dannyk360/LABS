@@ -11,6 +11,7 @@ namespace DynamicXml
     {
         static void Main(string[] args)
         {
+            //Absolute file paths are rarely a good idea
             dynamic planets = DynamicXElement.Create(XElement.Load(@"C:\Users\danny_000\Documents\Visual Studio 2015\Projects\DynamicXml\DynamicXml\planets.xml"));
             var mercury = planets.Planet;       // first planet
             Console.WriteLine(mercury);
