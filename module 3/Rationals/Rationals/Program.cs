@@ -8,12 +8,18 @@ namespace Rationals
 {
     public class Program
     {
+        //Consider extracting this to a seperate file and outside of ther type
+
+         //Why does the implementation of the Rational type is not in the Rational type?
         public struct Rational
         {
             public int numerator ;
             public int denominator;
         }
+
+        //Consider a better name
         public Rational r1;
+
         public Program(int num,int den)
         {
             if (den == 0)
@@ -93,6 +99,7 @@ namespace Rationals
             return r1.numerator + "/" + r1.denominator + "=" + value;
         }
 
+        //No checking wither ob is of type Rational
         public override bool Equals(Object ob)
         {
             var r2 = (Program)ob;
@@ -101,18 +108,21 @@ namespace Rationals
 
         static void Main(string[] args)
         {
-            Program R1 = new Program(4,2);
-            Program R2 = new Program(int.MaxValue) ;
-            Console.WriteLine(R1 + " and " + R2);
+            var num1 = new Program(1, 2);
+            var num2 = new Program(1, 2);
 
-            R1.r1 = R1.Add(R2.r1);
-            R1.r1 = R1.Mul(R2.r1);
+            var num3 = num1.Add(num2.r1);
 
-            Console.Write(R1 + " and " + R2 + " is " );
-            if (!R1.Equals(R2))
-                Console.Write("Not ");
-            Console.WriteLine("Equal");
-            Console.ReadLine();
+            var num4 = num2.Mul(num2.r1);
+
+            var num6 = new Program(2, 4);
+            var num7 = new Program(2, 4);
+            num7.Reduce();
+
+
+            Console.WriteLine($"{num1} + {num2} = {num3}");
+            Console.WriteLine($"{num2} * {num2} = {num4}");
+            Console.WriteLine($"{num6} reduced {num7}");
 
         }
     }
