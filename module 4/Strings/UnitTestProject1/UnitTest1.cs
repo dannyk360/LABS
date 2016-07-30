@@ -3,6 +3,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestStrings
 {
+    //Nice
+    //Consider a better name
+    //Consider a better name for the file. The name should describe what are you testing
+    //You can add more UnitTests here.
     [TestClass]
     public class UnitTestProgram
     {

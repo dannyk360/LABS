@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Strings
 {
+    //The convention for method in C# is to start with a capital letter
     public class Program
     {
         public bool CheckIfStringEmpty(string str)
         {
+            //Nice.
             return string.IsNullOrEmpty(str);
         }
 
@@ -18,6 +20,7 @@ namespace Strings
             Array.Reverse(str);
             for (int i = 0; i < str.Length; i++)
             {
+                //Console.Write("{0} ", str[i]);
                 Console.Write(str[i] + " ");
             }
             return str;
@@ -28,6 +31,7 @@ namespace Strings
             Array.Sort(str);
             for (int i = 0; i < str.Length; i++)
             {
+                //Console.Write($"{str[i]} ");
                 Console.Write(str[i] + " ");
             }
             return str;
