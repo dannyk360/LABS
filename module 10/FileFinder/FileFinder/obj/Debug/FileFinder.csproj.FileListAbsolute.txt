@@ -4,3 +4,9 @@ c:\users\danny_000\documents\visual studio 2015\Projects\FileFinder\FileFinder\b
 c:\users\danny_000\documents\visual studio 2015\Projects\FileFinder\FileFinder\obj\Debug\FileFinder.csprojResolveAssemblyReference.cache
 c:\users\danny_000\documents\visual studio 2015\Projects\FileFinder\FileFinder\obj\Debug\FileFinder.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\FileFinder\FileFinder\obj\Debug\FileFinder.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\bin\Debug\FileFinder.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\obj\Debug\FileFinder.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\obj\Debug\FileFinder.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\bin\Debug\FileFinder.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\bin\Debug\FileFinder.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\FileFinder\FileFinder\obj\Debug\FileFinder.csprojResolveAssemblyReference.cache
