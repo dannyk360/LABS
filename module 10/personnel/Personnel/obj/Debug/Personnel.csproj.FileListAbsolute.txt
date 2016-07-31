@@ -3,3 +3,8 @@ c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\bin
 c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.pdb
 c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\personnel\Personnel\bin\Debug\Personnel.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\personnel\Personnel\obj\Debug\Personnel.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\personnel\Personnel\obj\Debug\Personnel.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\personnel\Personnel\bin\Debug\Personnel.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 10\personnel\Personnel\bin\Debug\Personnel.pdb

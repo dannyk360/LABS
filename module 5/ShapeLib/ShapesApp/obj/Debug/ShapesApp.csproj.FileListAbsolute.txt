@@ -6,3 +6,11 @@ c:\Users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapesApp\bin\
 c:\Users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
 c:\Users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapesApp\obj\Debug\ShapesApp.exe
 c:\Users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapesApp\obj\Debug\ShapesApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\bin\Debug\ShapesApp.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\obj\Debug\ShapesApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\obj\Debug\ShapesApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\bin\Debug\ShapesApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\bin\Debug\ShapesApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\bin\Debug\ShapeLib.dll
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\bin\Debug\ShapeLib.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache

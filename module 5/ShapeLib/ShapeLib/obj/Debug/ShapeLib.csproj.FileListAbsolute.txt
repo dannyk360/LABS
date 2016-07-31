@@ -3,3 +3,8 @@ c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\bin\D
 c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
 c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.dll
 c:\users\danny_000\documents\visual studio 2015\Projects\ShapeLib\ShapeLib\obj\Debug\ShapeLib.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapeLib\bin\Debug\ShapeLib.dll
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapeLib\bin\Debug\ShapeLib.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapeLib\obj\Debug\ShapeLib.dll
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 5\ShapeLib\ShapeLib\obj\Debug\ShapeLib.pdb

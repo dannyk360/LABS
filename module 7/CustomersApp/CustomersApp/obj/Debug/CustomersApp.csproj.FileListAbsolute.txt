@@ -4,3 +4,6 @@ c:\users\danny_000\documents\visual studio 2015\Projects\CustomersApp\CustomersA
 c:\users\danny_000\documents\visual studio 2015\Projects\CustomersApp\CustomersApp\obj\Debug\CustomersApp.csprojResolveAssemblyReference.cache
 c:\users\danny_000\documents\visual studio 2015\Projects\CustomersApp\CustomersApp\obj\Debug\CustomersApp.exe
 c:\users\danny_000\documents\visual studio 2015\Projects\CustomersApp\CustomersApp\obj\Debug\CustomersApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\CustomersApp\CustomersApp\obj\Debug\CustomersApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\module 7\CustomersApp\CustomersApp\obj\Debug\CustomersApp.pdb

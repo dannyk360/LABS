@@ -6,6 +6,17 @@ using System.Threading.Tasks;
 
 namespace Rationals
 {
+    /**
+     Eyal:
+      
+     1) You were asked to override the operators for the Rational class, not for the Program class
+     2) Were you hesitant, at least, to put your name on code which looks like this when reaching module 10?
+     I understand that you started this class in module 3, and back then you did not know better
+     But a lot more is expected from you in this point of the course.
+     Consider revising your solution, and seriously, you should take your assignments more seriously.
+     This does not fulfill the requirements of the assignment.
+   */
+
     public class Program
     {
         public struct Rational
@@ -14,7 +25,7 @@ namespace Rationals
             public int denominator;
             public static implicit operator double(Rational r1)
             {
-                return (double)r1.numerator / r1.denominator;
+                return (double)r1.numerator / r1.denominator;//Bug: DivideByZeroException
             }
 
             public static explicit operator Rational(int num)
@@ -109,27 +120,29 @@ namespace Rationals
             return (r1.numerator == r2.r1.numerator) && (r1.denominator == r2.r1.denominator);
         }
 
+     
         public static Rational operator +(Program r1,Program r2)
         {
             return r1.Add(r2.r1);
         }
 
+     
         public static Rational operator -(Program r1, Rational r2)
         {
             return r1.Add(new Program((-1)*r2.numerator,r2.denominator).r1);
         }
 
+       
         public static Rational operator *(Program r1, Rational r2)
         {
             return r1.Mul(r2);
         }
 
+    
         public static Rational operator /(Program r1, Rational r2)
         {
-            return r1.Mul(new Program(r2.denominator,r2.numerator).r1);
+            return r1.Mul(new Program(r2.denominator, r2.numerator).r1);
         }
-
-
 
         static void Main(string[] args)
         {

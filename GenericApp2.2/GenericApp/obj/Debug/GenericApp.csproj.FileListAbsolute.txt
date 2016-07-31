@@ -9,3 +9,6 @@ C:\Users\danny_000\Documents\Visual Studio 2015\Projects\module 7\GenericApp\Gen
 C:\Users\danny_000\Documents\Visual Studio 2015\Projects\module 7\GenericApp\GenericApp\obj\Debug\GenericApp.pdb
 C:\Users\danny_000\Documents\Visual Studio 2015\Projects\module 7\GenericApp\GenericApp\bin\Debug\GenericApp.exe
 C:\Users\danny_000\Documents\Visual Studio 2015\Projects\module 7\GenericApp\GenericApp\bin\Debug\GenericApp.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\GenericApp2.2\GenericApp\bin\Debug\GenericApp.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\GenericApp2.2\GenericApp\obj\Debug\GenericApp.exe
+D:\git\codevalue\advanced-net-course\home-assignments\5\Danny Kaplunski\LABS\GenericApp2.2\GenericApp\obj\Debug\GenericApp.pdb

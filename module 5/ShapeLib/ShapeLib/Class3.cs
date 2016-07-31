@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShapeLib
 {
+    
     public class Ellipse : Shape , IComparable
     {
         public readonly int littleR;
@@ -36,6 +37,7 @@ namespace ShapeLib
             sb.AppendLine("the little radius is " + littleR + " the big radius is " + bigR);
         }
 
+        //Same comments from Rectangle apply here
         public int CompareTo(object obj)
         {
             dynamic shape = obj;

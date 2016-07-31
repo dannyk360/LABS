@@ -9,6 +9,7 @@ namespace FileFinder
 {
     class Program
     {
+        //Very good!
         static void Main(string[] args)
         {
             if (args.Length < 2)
