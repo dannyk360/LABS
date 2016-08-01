@@ -26,6 +26,8 @@ namespace MailSystem
 
         public static void MailCallback(object args)
         {
+            //No, you should have used the state argument or use some other way (like lambda's and capturing) for the mail.
+            //This isn't what we wanted you to do.
             MailManager manager = new MailManager();
             manager.MailArrived += MailArrivedHandler;
             manager.SimulateMailArrived((MailArrivedEventArgs)args);

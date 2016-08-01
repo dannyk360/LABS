@@ -8,6 +8,7 @@ namespace MailSystem
 {
     class MailArrivedEventArgs : EventArgs
     {
+        //Oh no, these are not properties.
         public readonly string Title;
         public readonly string Body;
 
