@@ -1,0 +1,11 @@
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\bin\Debug\BackgamonUI.exe.config
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\bin\Debug\BackgamonUI.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\bin\Debug\BackgamonUI.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.Form1.resources
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.Properties.Resources.resources
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.csproj.GenerateResource.Cache
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.exe
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\obj\Debug\BackgamonUI.pdb
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\bin\Debug\Backgammon.dll
+C:\Users\danny_000\Documents\Visual Studio 2015\Projects\Backgammon\BackgamonUI\bin\Debug\Backgammon.pdb
