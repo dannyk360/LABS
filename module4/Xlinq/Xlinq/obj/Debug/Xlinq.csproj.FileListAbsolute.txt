@@ -1,0 +1,6 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\bin\Debug\Xlinq.exe.config
+C:\Users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\bin\Debug\Xlinq.exe
+C:\Users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\bin\Debug\Xlinq.pdb
+C:\Users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\obj\Debug\Xlinq.csprojResolveAssemblyReference.cache
+C:\Users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\obj\Debug\Xlinq.exe
+C:\Users\danny_000\documents\visual studio 2015\Projects\Xlinq\Xlinq\obj\Debug\Xlinq.pdb

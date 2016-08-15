@@ -1,0 +1,6 @@
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\bin\Debug\module4.1.exe.config
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\bin\Debug\module4.1.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\bin\Debug\module4.1.pdb
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\obj\Debug\module4.1.csprojResolveAssemblyReference.cache
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\obj\Debug\module4.1.exe
+c:\users\danny_000\documents\visual studio 2015\Projects\module4.1\module4.1\obj\Debug\module4.1.pdb
