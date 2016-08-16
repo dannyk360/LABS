@@ -1,0 +1,6 @@
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\bin\Debug\Queues.exe.config
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\bin\Debug\Queues.exe
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\bin\Debug\Queues.pdb
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\obj\Debug\Queues.csprojResolveAssemblyReference.cache
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\obj\Debug\Queues.exe
+c:\users\codevalue\documents\visual studio 2013\Projects\Queues\Queues\obj\Debug\Queues.pdb

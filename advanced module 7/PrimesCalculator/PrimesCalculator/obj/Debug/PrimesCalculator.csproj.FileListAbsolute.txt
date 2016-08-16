@@ -1,0 +1,9 @@
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\bin\Debug\PrimesCalculator.exe.config
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\bin\Debug\PrimesCalculator.exe
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\bin\Debug\PrimesCalculator.pdb
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.csprojResolveAssemblyReference.cache
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.Form1.resources
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.Properties.Resources.resources
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.csproj.GenerateResource.Cache
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.exe
+c:\users\codevalue\documents\visual studio 2013\Projects\PrimesCalculator\PrimesCalculator\obj\Debug\PrimesCalculator.pdb
