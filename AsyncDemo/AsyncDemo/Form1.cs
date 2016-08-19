@@ -26,18 +26,20 @@ namespace AsyncDemo
             int.TryParse(textBox2.Text, out secondNumber);
             currentDelegate PrimesCalculator = new currentDelegate(new calculatePrimes().CalcPrimes);
             
-            PrimesCalculator.BeginInvoke(firstNumber, secondNumber, callbackMethod, PrimesCalculator);
-
-        
+            PrimesCalculator.BeginInvoke(firstNumber, secondNumber, callbackMethod, PrimesCalculator);        
         }
+        // method name should begin with big letter
         private void callbackMethod(IAsyncResult Iasync)
         {
+            // delete first 2 lines and define "PrimesCalculator" as parameter class
             AsyncResult res = (AsyncResult)Iasync;
             CallbackClass callback = new CallbackClass();
             currentDelegate caller = (currentDelegate)res.AsyncDelegate;
             var PrimeNumbers = caller.EndInvoke(Iasync);
             foreach (var num in PrimeNumbers)
             {
+                // invoke - synchronic , beginInvoke - asynchronic
+                // The UI is blocked
                 Invoke((MethodInvoker)delegate
                 {
                     listBox1.Items.Add(num);
