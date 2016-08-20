@@ -1,0 +1,27 @@
+*)Consider the 'RegularZone.giveAllTheSteps' method as an example to the following point:
+Without diving into what it does and really trying hard to understand it, there's really no way of knowing what it does on the inside.
+Consider dividing it into smaller well defined methods with clear intent.
+
+*)Encapsulation is important
+Consider the expression 'board.SpotsOnBoard[chose._to].color' (RegularZone.cs, line 48)
+This poses an issue since you can not change the implementation of board without breaking your code.
+A properly encapsulated Board class would not expose the manner in which it stores state- it would expose methods that would be agnostic to its implememntation
+
+*)in C#, it is common that methods and properties are named in 'PascalCase', not in 'camelCase'
+Please try and follow this general style.
+
+*)OneStep.cs: Do not expose fields, ever!
+
+*)Getting rid of magic numbers - a magic number is a constant without a meaningful name which is located in your code.
+It is magic in the sense that no one really has an idea as to how its value serves the purpose of the code.
+
+Example : "24" in LastZone.cs (line 53) means nothing to me- and it will mean nothing to you in a couple of months.
+
+Consider this:
+
+private const int MeaningfulName= 24;
+
+The constant can then be used in your code, and can be changed (if necessary) by applying a single change to the constant's value-
+Instead of taking the risk of forgetting to change it somewhere.
+
+*)Overall - good work!
