@@ -9,6 +9,7 @@ namespace AsyncDemo
 {
     public class calculatePrimes
     {
+        // Very good
         public IEnumerable<int> CalcPrimes(int firstNumber, int secondNumber)
         {
             List<int> collection = new List<int>();

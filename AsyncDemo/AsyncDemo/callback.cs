@@ -9,6 +9,7 @@ namespace AsyncDemo
 {
     class CallbackClass
     {
+        // method name should begin with big letter, why static?? why new class??
         public static void callbackMethod(IAsyncResult Iasync)
         {
             AsyncResult res = (AsyncResult)Iasync;
@@ -22,10 +23,11 @@ namespace AsyncDemo
 
 
         }
+        // method name should begin with big letter, why not Implemented ??
 
         private void addToList(int number)
         {
-            
+            // ????
         }
     }
 }
