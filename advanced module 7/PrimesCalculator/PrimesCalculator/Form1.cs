@@ -20,6 +20,7 @@ namespace PrimesCalculator
         Thread calculateThread;
         private void button1_Click(object sender, EventArgs e)
         {
+            //String.IsNullOrEmpty is better
             if (textBox1.Text == "" || textBox2.Text == "")
             {
                 MessageBox.Show("please enter numbers in the textboxs");
@@ -54,6 +55,8 @@ namespace PrimesCalculator
                 if (i.isPrime())
                     result.Add(i);
             }
+
+            //You can update all of them at once.
             for (int i = 0; i < result.Count; i++)
             {
                 this.Invoke((MethodInvoker)delegate
@@ -67,6 +70,7 @@ namespace PrimesCalculator
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Thread abort is not recommended
             calculateThread.Abort();
         }
     }
