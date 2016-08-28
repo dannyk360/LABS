@@ -38,6 +38,7 @@ namespace AccountsLib
                 //Also, you should have used a better string that describes that actual exception
                 throw new Exception("NegativeExc");
             if (balance - money < 0)
+                //You should have added a message to the exception
                 throw new InsufficentFundsException();
 
             balance -= money;

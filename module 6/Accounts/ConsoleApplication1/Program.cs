@@ -20,6 +20,7 @@ namespace ConsoleApplication1
             //You are not handling the ArgumentOutOfRangeException/Exception that you throwed if the amount is negative.
             catch (InsufficentFundsException e)
             {
+                //You should have used the message from the exception
                 Console.WriteLine("there has been an InsufficentFundsException");
             }
             finally //didn't understood why we need the finally now but i did it
