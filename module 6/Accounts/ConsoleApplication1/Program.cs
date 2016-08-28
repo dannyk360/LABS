@@ -17,6 +17,7 @@ namespace ConsoleApplication1
             {
                 newAcc.Withdraw(51);
             }
+            //You are not handling the ArgumentOutOfRangeException/Exception that you throwed if the amount is negative.
             catch (InsufficentFundsException e)
             {
                 Console.WriteLine("there has been an InsufficentFundsException");

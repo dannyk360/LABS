@@ -34,6 +34,8 @@ namespace AccountsLib
         public void Withdraw(int money)
         {
             if(money < 0)
+                //Why aren't you using ArgumentOutOfRangeException()
+                //Also, you should have used a better string that describes that actual exception
                 throw new Exception("NegativeExc");
             if (balance - money < 0)
                 throw new InsufficentFundsException();
