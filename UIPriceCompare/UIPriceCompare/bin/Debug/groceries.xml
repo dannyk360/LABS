@@ -1,0 +1,260 @@
+<root>
+  <Chains>
+    <Chain Id="7290027600007">שופרסל</Chain>
+	<Chain Id="7290058140886">רמי לוי</Chain>
+    <Chain Id="7290696200003">ויקטורי</Chain>
+	<Chain Id="7290873255550">טיב טעם</Chain>
+  </Chains>
+  <Items name="פירות וירקות">
+    <Item>
+      <ItemName>פלפל אדום</ItemName>
+      <ItemCode name="שופרסל">7290000000091</ItemCode>
+	  <ItemCode name="טיב טעם">619</ItemCode>
+      <ItemCode name="רמי לוי">104</ItemCode>
+      <ItemCode name="ויקטורי">2061</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>מלפפון</ItemName>
+      <ItemCode name="שופרסל">7290000000046</ItemCode>
+	  <ItemCode name="טיב טעם">614</ItemCode>
+      <ItemCode name="רמי לוי">101</ItemCode>
+      <ItemCode name="ויקטורי">2028</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>בננה</ItemName>
+      <ItemCode name="שופרסל">7290000964775</ItemCode>
+	  <ItemCode name="טיב טעם">644</ItemCode>
+      <ItemCode name="רמי לוי">134</ItemCode>
+      <ItemCode name="ויקטורי">2009</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>עגבניות שרי</ItemName>
+      <ItemCode name="שופרסל">7296073218845</ItemCode>
+	  <ItemCode name="טיב טעם">668</ItemCode>
+      <ItemCode name="רמי לוי">162</ItemCode>
+      <ItemCode name="ויקטורי">7290014318038</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>אגס</ItemName>
+      <ItemCode name="שופרסל">7290000964829</ItemCode>
+	  <ItemCode name="טיב טעם">643</ItemCode>
+      <ItemCode name="רמי לוי">113</ItemCode>
+      <ItemCode name="ויקטורי">2063</ItemCode>
+    </Item>
+
+  </Items>
+  <Items name="מוצרי חלב">
+    <Item>
+      <ItemName> חלב שקית</ItemName>
+      <ItemCode name="שופרסל">7290000042015</ItemCode>
+	  <ItemCode name="טיב טעם">7290102396962</ItemCode>
+      <ItemCode name="רמי לוי">7290000042015</ItemCode>
+      <ItemCode name="ויקטורי">7290000042015</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>מילקי</ItemName>
+      <ItemCode name="שופרסל">72940761</ItemCode>
+	  <ItemCode name="טיב טעם">72940761</ItemCode>
+      <ItemCode name="רמי לוי">72940761</ItemCode>
+      <ItemCode name="ויקטורי">72940761</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>קוטג</ItemName>
+      <ItemCode name="שופרסל">7290010945146</ItemCode>
+	  <ItemCode name="טיב טעם">7290010945146</ItemCode>
+      <ItemCode name="רמי לוי">7290010945146</ItemCode>
+      <ItemCode name="ויקטורי">7290010945146</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>גבינה צהובה</ItemName>
+      <ItemCode name="שופרסל">7290102394821</ItemCode>
+	  <ItemCode name="טיב טעם">7290102394821</ItemCode>
+      <ItemCode name="רמי לוי">7290102394821</ItemCode>
+      <ItemCode name="ויקטורי">7290102394821</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>שוקו</ItemName>
+      <ItemCode name="שופרסל">7290102396771</ItemCode>
+	  <ItemCode name="טיב טעם">7290102396771</ItemCode>
+      <ItemCode name="רמי לוי">7290102396771</ItemCode>
+      <ItemCode name="ויקטורי">7290102396771</ItemCode>
+    </Item>
+
+  </Items>
+  <Items name="בשר ונקניקים">
+    <Item>
+      <ItemName>המבורגר 400ג</ItemName>
+      <ItemCode name="שופרסל">7290000530413</ItemCode>
+	  <ItemCode name="טיב טעם">2900207</ItemCode>
+      <ItemCode name="רמי לוי">7290000530413</ItemCode>
+      <ItemCode name="ויקטורי">7290000530413</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>נקניקיות עוף 400ג</ItemName>
+      <ItemCode name="שופרסל">7290000364872</ItemCode>
+	  <ItemCode name="טיב טעם">7290000364872</ItemCode>
+      <ItemCode name="רמי לוי">7290000364872</ItemCode>
+      <ItemCode name="ויקטורי">7290000364872</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>פסטרמה ברביקיו</ItemName>
+      <ItemCode name="שופרסל">7290002900566</ItemCode>
+	  <ItemCode name="טיב טעם">2900566</ItemCode>
+      <ItemCode name="רמי לוי">7290002900566</ItemCode>
+      <ItemCode name="ויקטורי">7290002900566</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>סלמי איטלקי</ItemName>
+      <ItemCode name="שופרסל">7290003229147</ItemCode>
+	  <ItemCode name="טיב טעם">7290003229147</ItemCode>
+      <ItemCode name="רמי לוי">7290003229147</ItemCode>
+      <ItemCode name="ויקטורי">7290003229147</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>קבבונים 400ג</ItemName>
+      <ItemCode name="שופרסל">7290000364872</ItemCode>
+	  <ItemCode name="טיב טעם">7290000364872</ItemCode>
+      <ItemCode name="רמי לוי">7290000364872</ItemCode>
+      <ItemCode name="ויקטורי">7290000364872</ItemCode>
+    </Item>
+
+  </Items>
+  <Items name="סלטים">
+    <Item>
+      <ItemName>חומוס 400ג סמיר הגדול</ItemName>
+      <ItemCode name="שופרסל">7290000467153</ItemCode>
+	  <ItemCode name="טיב טעם">7290000467153</ItemCode>
+      <ItemCode name="רמי לוי">7290000467153</ItemCode>
+      <ItemCode name="ויקטורי">7290000467153</ItemCode>
+    </Item>	
+    <Item>
+      <ItemName>חציל בטחינה רפי כהן 400ג</ItemName>
+      <ItemCode name="שופרסל">7290011800826</ItemCode>
+	  <ItemCode name="טיב טעם">7290011800826</ItemCode>
+      <ItemCode name="רמי לוי">7290011800826</ItemCode>
+      <ItemCode name="ויקטורי">7290011800826</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>רפי כהן סלט מטבוחה</ItemName>
+      <ItemCode name="שופרסל">7290011800642</ItemCode>
+	  <ItemCode name="טיב טעם">7290011800642</ItemCode>
+      <ItemCode name="רמי לוי">7290011800642</ItemCode>
+      <ItemCode name="ויקטורי">7290011800642</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>סלט רצועות פלפלים</ItemName>
+      <ItemCode name="שופרסל">7290104721533</ItemCode>
+	  <ItemCode name="טיב טעם">7290104721533</ItemCode>
+      <ItemCode name="רמי לוי">7290104721533</ItemCode>
+      <ItemCode name="ויקטורי">7290104721533</ItemCode>
+    </Item>
+
+
+  </Items>
+  <Items name="שימורים">
+    <Item>
+      <ItemName>מלפפונים בחומץ</ItemName>
+      <ItemCode name="שופרסל">7290000467184</ItemCode>
+	  <ItemCode name="טיב טעם">7290002317180</ItemCode>
+      <ItemCode name="רמי לוי">7290000467184</ItemCode>
+      <ItemCode name="ויקטורי">7290000467184</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>טונה</ItemName>
+      <ItemCode name="שופרסל">7290002551003</ItemCode>
+	  <ItemCode name="טיב טעם">2551003</ItemCode>
+      <ItemCode name="רמי לוי">7290002551003</ItemCode>
+      <ItemCode name="ויקטורי">7290002551003</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>אפונה וגזר</ItemName>
+      <ItemCode name="שופרסל">7290000208114</ItemCode>
+	  	  <ItemCode name="טיב טעם">7290000208114</ItemCode>
+      <ItemCode name="רמי לוי">7290000208114</ItemCode>
+      <ItemCode name="ויקטורי">7290013711687</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>גרעיני תירס לייט</ItemName>
+      <ItemCode name="שופרסל">7290000208145</ItemCode>
+	  	  <ItemCode name="טיב טעם">7290000208145</ItemCode>
+      <ItemCode name="רמי לוי">7290000208145</ItemCode>
+      <ItemCode name="ויקטורי">7290013711663</ItemCode>
+    </Item>
+  </Items>
+  <Items name="ממתקים">
+    <Item>
+      <ItemName>במבה</ItemName>
+      <ItemCode name="שופרסל">7290000066318</ItemCode>
+	  	  <ItemCode name="טיב טעם">7290000066318</ItemCode>
+      <ItemCode name="רמי לוי">7290000066318</ItemCode>
+      <ItemCode name="ויקטורי">7290000066318</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>ביסלי</ItemName>
+      <ItemCode name="שופרסל">7290000066196</ItemCode>
+	  	  <ItemCode name="טיב טעם">7290000066196</ItemCode>
+      <ItemCode name="רמי לוי">7290000066196</ItemCode>
+      <ItemCode name="ויקטורי">7290000066196</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>שוקולד פרה</ItemName>
+      <ItemCode name="שופרסל">7290000170053</ItemCode>
+	  	  <ItemCode name="טיב טעם">7290000170053</ItemCode>
+      <ItemCode name="רמי לוי">7290000170053</ItemCode>
+      <ItemCode name="ויקטורי">7290000170053</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>עוגיות מרבה</ItemName>
+      <ItemCode name="שופרסל">5601008200468</ItemCode>
+	  <ItemCode name="טיב טעם">5601008200468</ItemCode>
+      <ItemCode name="רמי לוי">5601008200468</ItemCode>
+      <ItemCode name="ויקטורי">5601008200468</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>עוגת שוקולד שמרים</ItemName>
+      <ItemCode name="שופרסל">7290106578821</ItemCode>
+	  <ItemCode name="טיב טעם">7290106578821</ItemCode>
+      <ItemCode name="רמי לוי">7290106578821</ItemCode>
+      <ItemCode name="ויקטורי">7290106578821</ItemCode>
+    </Item>
+
+  </Items>
+  <Items name="שתייה">
+    <Item>
+      <ItemName>מים שישייה</ItemName>
+      <ItemCode name="שופרסל">7290000688732</ItemCode>
+	  <ItemCode name="טיב טעם">7290002331483</ItemCode>
+      <ItemCode name="רמי לוי">7290000688732</ItemCode>
+      <ItemCode name="ויקטורי">7290000688732</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>קולה ליטר וחצי</ItemName>
+      <ItemCode name="שופרסל">7290000284316</ItemCode>
+	  <ItemCode name="טיב טעם">7290000284316</ItemCode>
+      <ItemCode name="רמי לוי">7290000284316</ItemCode>
+      <ItemCode name="ויקטורי">7290000284316</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>ספרייט</ItemName>
+      <ItemCode name="שופרסל">7290013584182</ItemCode>
+	  <ItemCode name="טיב טעם">7290013584182</ItemCode>
+      <ItemCode name="רמי לוי">7290013584182</ItemCode>
+      <ItemCode name="ויקטורי">7290013584182</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>ספרינג מנגו</ItemName>
+      <ItemCode name="שופרסל">7290000260853</ItemCode>
+	  <ItemCode name="טיב טעם">260853</ItemCode>
+      <ItemCode name="רמי לוי">7290000260853</ItemCode>
+      <ItemCode name="ויקטורי">7290000260853</ItemCode>
+    </Item>
+    <Item>
+      <ItemName>מיץ תפוזים סחוט</ItemName>
+      <ItemCode name="שופרסל">7290004030445</ItemCode>
+	  <ItemCode name="טיב טעם">4030445</ItemCode>
+      <ItemCode name="רמי לוי">7290004030445</ItemCode>
+      <ItemCode name="ויקטורי">7290004030445</ItemCode>
+    </Item>
+
+  </Items>
+</root>
