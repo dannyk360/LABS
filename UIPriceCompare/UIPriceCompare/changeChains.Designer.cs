@@ -1,6 +1,9 @@
-﻿namespace UIPriceCompare
+﻿using System;
+using System.Windows.Forms;
+
+namespace UIPriceCompare
 {
-    partial class changeChains
+    partial class ChangeChains
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +33,7 @@
         {
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // checkedListBox1
@@ -50,16 +54,28 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(376, 155);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(303, 32);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "נא לבחור לפחות 3 חברות";
+            // 
             // changeChains
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(370, 452);
+            this.ClientSize = new System.Drawing.Size(833, 491);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkedListBox1);
-            this.Name = "changeChains";
+            this.Name = "ChangeChains";
             this.Text = "changeChains";
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -67,5 +83,6 @@
 
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button1;
+        private Label label1;
     }
 }

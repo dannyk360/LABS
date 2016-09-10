@@ -1,40 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entity
+﻿namespace Entity
 {
     public class Item : IItem
     {
-        public string name { get; private set; }
-        private int capacity { get; set; }
-        
-        public Item(string _name,int _capacity)
+        public Item(string name, double capacity)
         {
-            name = _name;
-            capacity = _capacity;
+            Name = name;
+            Capacity = capacity;
         }
 
-        public int ReplaceCapcity(int subcapacity)
+        private double Capacity { get; set; }
+        public string Name { get; private set; }
+
+        public void ReplaceCapcity(double subcapacity)
         {
-            if (capacity < subcapacity)
-                return -1;
-            capacity -= subcapacity;
-            return capacity;
+            Capacity = subcapacity;
         }
 
-        public int GetCapacity()
+        public double GetCapacity()
         {
-            return capacity;
-            
-        }
-
-        public int AddCapcity(int addCapacity)
-        {
-            capacity += addCapacity;
-            return capacity;
+            return Capacity;
         }
     }
 }

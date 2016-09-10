@@ -50,6 +50,12 @@
     <Compile Include="changeChains.Designer.cs">
       <DependentUpon>changeChains.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeQuantity.Designer.cs">
+      <DependentUpon>ChangeQuantity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <EmbeddedResource Include="changeChains.resx">
       <DependentUpon>changeChains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeQuantity.resx">
+      <DependentUpon>ChangeQuantity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

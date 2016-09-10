@@ -47,13 +47,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DBAccess\DBAccess.csproj">
+    <ProjectReference Include="..\DBAccess\DBA.csproj">
       <Project>{20b5b5fe-d79b-43cf-b528-fee9ef700152}</Project>
-      <Name>DBAccess</Name>
+      <Name>DBA</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entity\Entity.csproj">
+    <ProjectReference Include="..\Entity\BEL.csproj">
       <Project>{d5972c51-d5dc-47df-8952-8b757e8e752c}</Project>
-      <Name>Entity</Name>
+      <Name>BEL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

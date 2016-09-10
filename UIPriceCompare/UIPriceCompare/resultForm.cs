@@ -1,43 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using BULogic;
 
 namespace UIPriceCompare
 {
-    public partial class resultForm : Form
+    public partial class ResultForm : Form
     {
-        public resultForm(string[] arr)
+        public ResultForm(string[] arr)
         {
             InitializeComponent(arr);
+            ShowChainsSum();
         }
 
-        private async void getChainInfo(object sender, EventArgs e)
+        private async void ShowChainsSum()
         {
-            var information = await BULogic.ProgramLogic.getChainInfo(((Button) sender).Text);
+            var sumsOfChains = await ProgramLogic.GetSumsOfChains();
+            for (var i = 0; i < sumsOfChains.Count; i++)
+                sumResultLabel[i].Text = sumsOfChains[i].ToString();
+        }
+
+        private async void GetChainInfo(object sender, EventArgs e)
+        {
+            var information = await ProgramLogic.GetChainInfo(((Button) sender).Text);
             if (sumLabel.Visible == false)
             {
-                sumLabel.Visible = true;
                 cheapestLabel.Visible = true;
                 expenciveLabel.Visible = true;
             }
 
-            for (int i = 1; i < information.cheapestList.Count+1; i++)
-            {
-                cheapestResultLabels[i-1].Text = information.cheapestList[i-1];
-            }
-            for (int i = 1; i < information.expensiveList.Count+1; i++)
-            {
-                expenciveResultLabels[i-1].Text = information.expensiveList[i-1];
-            }
-            sumResultLabel.Text = information.sum.ToString();
+            for (var i = 1; i < information.CheapestList.Count + 1; i++)
+                cheapestResultLabels[i - 1].Text = information.CheapestList[i - 1];
+            for (var i = 1; i < information.ExpensiveList.Count + 1; i++)
+                expenciveResultLabels[i - 1].Text = information.ExpensiveList[i - 1];
         }
-
-
     }
 }

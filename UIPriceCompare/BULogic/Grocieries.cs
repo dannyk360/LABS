@@ -1,58 +1,58 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms.VisualStyles;
-using DBAccess;
+using DBA;
 using Entity;
+
 namespace BULogic
 {
     public class Groceries
     {
-        private static Dictionary<string,IItem> groceries = new Dictionary<string, IItem>();
-        private static Dictionary<string, List<string>> groceriesByCategory = new Dictionary<string, List<string>>();
-        public static List<string> GetGroceries(string typeName)
+        private readonly Dictionary<string, IItem> _groceries = new Dictionary<string, IItem>();
+        private readonly Dictionary<string, List<string>> _groceriesByCategory = new Dictionary<string, List<string>>();
+
+        public List<string> GetGroceries(string typeName)
         {
-            if (!groceriesByCategory.ContainsKey(typeName)) { 
-                groceriesByCategory.Add(typeName, DBAccess.readFromXml.GetGroceriesFromAdb(typeName));
-            }
-            return groceriesByCategory[typeName];
+            if (!_groceriesByCategory.ContainsKey(typeName))
+                _groceriesByCategory.Add(typeName, ReadFromXml.GetGroceriesFromAdb(typeName));
+            return _groceriesByCategory[typeName];
         }
 
-        public static int ReplaceItemCapcity(string itemName, int itemCapacity)
-        {
-            return groceries[itemName].ReplaceCapcity(itemCapacity);
-        }
 
-        public static int AddItemCapcity(string itemName, int addCapacity)
+        public void AddItem(string itemName, double itemCapacity)
         {
-            return groceries[itemName].AddCapcity(addCapacity);
-        }
-
-        public static void AddItem(string itemName, int itemCapacity)
-        {
-            if(!groceries.ContainsKey(itemName))
-                groceries.Add(itemName,new Item(itemName,itemCapacity) as IItem);
-            else
+            if (_groceries.ContainsKey(itemName))
             {
-                AddItemCapcity(itemName, itemCapacity);
+                _groceries[itemName].ReplaceCapcity(itemCapacity);
+                return;
             }
+            _groceries.Add(itemName, new Item(itemName, itemCapacity));
         }
 
 
-        public static List<IItem> getAllItems()
+        public List<IItem> GetAllItems()
         {
-            return (groceries.Values.Where((item) => item.GetCapacity() > 0)).ToList();
+            return _groceries.Values.Where(item => item.GetCapacity() > 0).AsParallel().ToList();
         }
 
-        public static void Clear()
+        public void Clear()
         {
-            foreach (var item in groceries.Values)
-            {
-                item.ReplaceCapcity(item.GetCapacity());
-            }
+            foreach (var item in _groceries.Values)
+                item.ReplaceCapcity(0);
+        }
+
+        public void ChangeCapcity(string itemName, double capacity)
+        {
+            _groceries[itemName].ReplaceCapcity(capacity);
+        }
+
+        public double GetGroceryCapacity(string itemName)
+        {
+            return _groceries[itemName].GetCapacity();
+        }
+
+        public string[] GetCategories()
+        {
+            return ReadFromXml.GetCategories();
         }
     }
 }

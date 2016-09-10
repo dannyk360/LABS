@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace Entity
 {
     public interface IChain
     {
+        string Name { get; }
+        bool IsWanted { get; }
         void AddItem(string itemName, Task<double> price);
-        double getItemPrice(string itemName);
-        bool checkIfThereIsAnItem(string itemName);
-        void changeValue();
-
-        string name { get; }
-        bool isWanted { get;}
+        double GetItemPrice(string itemName);
+        bool CheckIfThereIsAnItem(string itemName);
+        void ChangeValue();
     }
 }

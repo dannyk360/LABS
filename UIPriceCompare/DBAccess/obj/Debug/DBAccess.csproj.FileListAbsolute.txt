@@ -1,0 +1,5 @@
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\DBAccess\bin\Debug\DBAccess.dll
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\DBAccess\bin\Debug\DBAccess.pdb
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\DBAccess\obj\Debug\DBAccess.dll
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\DBAccess\obj\Debug\DBAccess.pdb

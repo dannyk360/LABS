@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DBAccess
+﻿namespace DBA
 {
     public struct ChainStruct
     {
-        public string id;
-        public string name;
+        public string Id;
+        public string Name;
     }
 }

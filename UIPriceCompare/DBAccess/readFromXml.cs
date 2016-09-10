@@ -1,69 +1,113 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
-using System.Xml.XPath;
 
-namespace DBAccess
+namespace DBA
 {
-    public class readFromXml
+    public class ReadFromXml
     {
         public static List<string> GetGroceriesFromAdb(string typeName)
         {
-            XmlDocument chainDoc = new XmlDocument();
+            var chainDoc = new XmlDocument();
 
             chainDoc.Load("groceries.xml");
             var xElement = XElement.Load(new XmlNodeReader(chainDoc));
 
             var itemByCategories = xElement.Elements("Items");
-            var itemsOfType = itemByCategories.Where((items) => (items.Attribute("name").Value == typeName)).Elements();
-            return itemsOfType.Select((item) => item.Element("ItemName").Value).ToList();
+
+            var itemsOfType = itemByCategories.Where(items =>
+            {
+                var xAttribute = items.Attribute("name");
+                return (xAttribute != null) && (xAttribute.Value == typeName);
+            }).Elements();
+
+            return itemsOfType.Select(item =>
+            {
+                var element = item.Element("ItemName");
+                if (element != null) return element.Value;
+                return null;
+            }).ToList();
         }
-        
-        public static List<ChainStruct> getChains()
+
+        public static List<ChainStruct> GetChains()
         {
-            XmlDocument chainDoc = new XmlDocument();
+            var chainDoc = new XmlDocument();
 
             chainDoc.Load("groceries.xml");
             var xElement = XElement.Load(new XmlNodeReader(chainDoc));
 
             var chains = xElement.Element("Chains");
 
-            return  (from chain in chains.Elements()
-                     select new ChainStruct() {id = chain.Attribute("Id").Value,name = chain.Value}).ToList();
+            if (chains != null)
+                return (from chain in chains.Elements()
+                    let xAttribute = chain.Attribute("Id")
+                    where xAttribute != null
+                    select new ChainStruct {Id = xAttribute.Value, Name = chain.Value}).ToList();
+            return null;
         }
 
 
-        public static Task<double> getPrice(string chainName,string itemCode)
+        public static Task<double> GetPrice(string chainName, string itemCode)
         {
-            XmlDocument branchDoc = new XmlDocument();
+            var branchDoc = new XmlDocument();
 
-            branchDoc.Load(chainName+".xml");
+            branchDoc.Load(chainName + ".xml");
             var xElement = XElement.Load(new XmlNodeReader(branchDoc));
 
             var items = xElement.Elements().Last().Elements();
             return Task.Run(() =>
             {
-                var groceries = items.Where((item) => item.Element("ItemCode").Value == itemCode);
+                var groceries = items.Where(item =>
+                {
+                    var element = item.Element("ItemCode");
+                    return (element != null) && (element.Value == itemCode);
+                });
+
                 var grocery = groceries.ElementAt(0);
-                return double.Parse(grocery.Element("ItemPrice").Value);
+                var price = grocery.Element("ItemPrice");
+                double priceNumber;
+                double.TryParse(price.Value, out priceNumber);
+                return priceNumber;
             });
         }
 
-        public static string getItemId(string itemName, string chainName)
+        public static string GetItemId(string itemName, string chainName)
         {
-             XmlDocument chainDoc = new XmlDocument();
+            var chainDoc = new XmlDocument();
 
             chainDoc.Load("groceries.xml");
             var xElement = XElement.Load(new XmlNodeReader(chainDoc));
 
             var itemByCategories = xElement.Elements("Items");
-            var chainsForItems = itemByCategories.Elements().Where((item) => item.Element("ItemName").Value == itemName);
-            return chainsForItems.Elements("ItemCode").Where((item) => item.Attribute("name").Value == chainName).ElementAt(0).Value;
+            var chainsForItems = itemByCategories.Elements().Where(item =>
+            {
+                var element = item.Element("ItemName");
+                return (element != null) && (element.Value == itemName);
+            });
+
+            return chainsForItems.Elements("ItemCode").Where(item =>
+            {
+                var xAttribute = item.Attribute("name");
+                return (xAttribute != null) && (xAttribute.Value == chainName);
+            }).ElementAt(0).Value;
+        }
+
+        public static string[] GetCategories()
+        {
+            var chainDoc = new XmlDocument();
+
+            chainDoc.Load("groceries.xml");
+            var xElement = XElement.Load(new XmlNodeReader(chainDoc));
+
+            var categories = xElement.Elements("Items");
+            return categories.Select(category =>
+            {
+                var xAttribute = category.Attribute("name");
+                if (xAttribute != null) return xAttribute.Value;
+                return null;
+            }).ToArray();
         }
     }
 }

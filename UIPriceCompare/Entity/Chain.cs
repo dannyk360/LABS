@@ -1,49 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Entity
 {
     public class Chain : IChain
     {
-        public readonly string id;
-        public string name { get; private set; }
-        private Dictionary<string,Task<double>> itemPrices;
-        public bool isWanted { get; private set ;}
+        private readonly Dictionary<string, Task<double>> _itemPrices;
+        public readonly string Id;
 
-        public Chain(string _id, string _name )
+        public Chain(string id, string name)
         {
-            itemPrices = new Dictionary<string, Task<double>>();
-            id = _id;
-            name = _name;
-            isWanted = true;
+            _itemPrices = new Dictionary<string, Task<double>>();
+            Id = id;
+            Name = name;
+            IsWanted = true;
         }
+
+        public string Name { get; private set; }
+        public bool IsWanted { get; private set; }
 
         public void AddItem(string itemName, Task<double> price)
         {
-            itemPrices.Add(itemName, price);
+            _itemPrices.Add(itemName, price);
         }
 
-        public double getItemPrice(string itemName)
+        public double GetItemPrice(string itemName)
         {
-            if (!itemPrices[itemName].IsCompleted)
-            {
-                itemPrices[itemName].Wait();
-            }
+            if (!_itemPrices[itemName].IsCompleted)
+                _itemPrices[itemName].Wait();
 
-            return itemPrices[itemName].Result;
-
-        }
-        public bool checkIfThereIsAnItem(string itemName)
-        {
-            return itemPrices.ContainsKey(itemName);
+            return _itemPrices[itemName].Result;
         }
 
-        public void changeValue()
+        public bool CheckIfThereIsAnItem(string itemName)
         {
-            isWanted ^= true;
+            return _itemPrices.ContainsKey(itemName);
+        }
+
+        public void ChangeValue()
+        {
+            IsWanted ^= true;
         }
     }
 }
