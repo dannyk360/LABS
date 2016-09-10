@@ -1,0 +1,5 @@
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\Entity\bin\Debug\Entity.dll
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\Entity\bin\Debug\Entity.pdb
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\Entity\obj\Debug\Entity.dll
+C:\Users\CodeValue\documents\visual studio 2013\Projects\UIPriceCompare\Entity\obj\Debug\Entity.pdb
