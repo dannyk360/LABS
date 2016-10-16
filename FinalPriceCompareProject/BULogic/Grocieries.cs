@@ -12,6 +12,10 @@ namespace BULogic
 
         public List<string> GetGroceries(string typeName)
         {
+            /*
+               Consider that call chaining ( passing the result of some call as a parameter to another is not such a good practice
+             * If such code throws an exception, you will have a hard time understanding what happened.
+             */
             if (!_groceriesByCategory.ContainsKey(typeName))
                 _groceriesByCategory.Add(typeName, ReadFromXml.GetGroceriesFromAdb(typeName));
             return _groceriesByCategory[typeName];
@@ -20,6 +24,7 @@ namespace BULogic
 
         public void AddItem(string itemName, double itemCapacity)
         {
+            //How about _grocieries.TryGetValue ? it is more efficient and achieves the same outcome.
             if (_groceries.ContainsKey(itemName))
             {
                 _groceries[itemName].ReplaceCapcity(itemCapacity);
@@ -42,11 +47,13 @@ namespace BULogic
 
         public void ChangeCapcity(string itemName, double capacity)
         {
+            //This code can throw an exception
             _groceries[itemName].ReplaceCapcity(capacity);
         }
 
         public double GetGroceryCapacity(string itemName)
         {
+            //This code can throw an exception
             return _groceries[itemName].GetCapacity();
         }
 

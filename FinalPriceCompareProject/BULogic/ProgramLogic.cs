@@ -86,6 +86,7 @@ namespace BULogic
             return Task.Run(() => _items.GetCategories());
         }
 
+        //How does one "sum a chain"? consider naming this method according to what it does
         public static Task<List<double>> GetSumsOfChains()
         {
             return Task.Run(() =>
